@@ -12,6 +12,12 @@
 		63B119262060F29400A7E3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B119242060F29400A7E3BD /* Main.storyboard */; };
 		63B119282060F29400A7E3BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63B119272060F29400A7E3BD /* Assets.xcassets */; };
 		63B1192B2060F29400A7E3BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63B119292060F29400A7E3BD /* LaunchScreen.storyboard */; };
+		F4B7DB08207DA862007CB607 /* tree.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB00207DA862007CB607 /* tree.scn */; };
+		F4B7DB09207DA862007CB607 /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB01207DA862007CB607 /* tree.png */; };
+		F4B7DB0A207DA862007CB607 /* 3D Models Credits.md in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB02207DA862007CB607 /* 3D Models Credits.md */; };
+		F4B7DB0B207DA862007CB607 /* book.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB04207DA862007CB607 /* book.jpg */; };
+		F4B7DB0C207DA862007CB607 /* book.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB05207DA862007CB607 /* book.scn */; };
+		F4B7DB0D207DA862007CB607 /* mountain.scn in Resources */ = {isa = PBXBuildFile; fileRef = F4B7DB07207DA862007CB607 /* mountain.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		63B119272060F29400A7E3BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63B1192A2060F29400A7E3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63B1192C2060F29500A7E3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4B7DB00207DA862007CB607 /* tree.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = tree.scn; sourceTree = "<group>"; };
+		F4B7DB01207DA862007CB607 /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
+		F4B7DB02207DA862007CB607 /* 3D Models Credits.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "3D Models Credits.md"; sourceTree = "<group>"; };
+		F4B7DB04207DA862007CB607 /* book.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = book.jpg; sourceTree = "<group>"; };
+		F4B7DB05207DA862007CB607 /* book.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = book.scn; sourceTree = "<group>"; };
+		F4B7DB07207DA862007CB607 /* mountain.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mountain.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		63B1191F2060F29400A7E3BD /* ARKitImageRecognition */ = {
 			isa = PBXGroup;
 			children = (
+				F4B7DAFE207DA862007CB607 /* 3D Models */,
 				63B119202060F29400A7E3BD /* AppDelegate.swift */,
 				63B119222060F29400A7E3BD /* ViewController.swift */,
 				63B119242060F29400A7E3BD /* Main.storyboard */,
@@ -62,6 +75,43 @@
 				63B1192C2060F29500A7E3BD /* Info.plist */,
 			);
 			path = ARKitImageRecognition;
+			sourceTree = "<group>";
+		};
+		F4B7DAFE207DA862007CB607 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7DAFF207DA862007CB607 /* Tree */,
+				F4B7DB02207DA862007CB607 /* 3D Models Credits.md */,
+				F4B7DB03207DA862007CB607 /* Book */,
+				F4B7DB06207DA862007CB607 /* Mountain */,
+			);
+			path = "3D Models";
+			sourceTree = "<group>";
+		};
+		F4B7DAFF207DA862007CB607 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7DB00207DA862007CB607 /* tree.scn */,
+				F4B7DB01207DA862007CB607 /* tree.png */,
+			);
+			path = Tree;
+			sourceTree = "<group>";
+		};
+		F4B7DB03207DA862007CB607 /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7DB04207DA862007CB607 /* book.jpg */,
+				F4B7DB05207DA862007CB607 /* book.scn */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		F4B7DB06207DA862007CB607 /* Mountain */ = {
+			isa = PBXGroup;
+			children = (
+				F4B7DB07207DA862007CB607 /* mountain.scn */,
+			);
+			path = Mountain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +174,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				63B1192B2060F29400A7E3BD /* LaunchScreen.storyboard in Resources */,
+				F4B7DB09207DA862007CB607 /* tree.png in Resources */,
 				63B119282060F29400A7E3BD /* Assets.xcassets in Resources */,
+				F4B7DB0D207DA862007CB607 /* mountain.scn in Resources */,
+				F4B7DB08207DA862007CB607 /* tree.scn in Resources */,
+				F4B7DB0A207DA862007CB607 /* 3D Models Credits.md in Resources */,
+				F4B7DB0C207DA862007CB607 /* book.scn in Resources */,
 				63B119262060F29400A7E3BD /* Main.storyboard in Resources */,
+				F4B7DB0B207DA862007CB607 /* book.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
